@@ -9,9 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.E104pam2persistencia">
-        <activity android:name=".FirebaseActivity"></activity>
-        <activity android:name=".SQLIteActivity" />
-        <activity android:name=".SharedPreferenceActivity" />
+        <activity android:name=".FirebaseActivity" android:parentActivityName=".MainActivity"/>
+        <activity android:name=".SQLIteActivity" android:parentActivityName=".MainActivity"/>
+        <activity android:name=".SharedPreferenceActivity" android:parentActivityName=".MainActivity"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -7,5 +7,6 @@ class FirebaseActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_firebase_main)
+        setTitle(R.string.firebase_title)
     }
 }

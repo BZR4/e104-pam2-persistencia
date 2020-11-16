@@ -7,5 +7,6 @@ class SQLIteActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_s_q_l_ite_main)
+        setTitle(R.string.sqlite_title)
     }
 }
